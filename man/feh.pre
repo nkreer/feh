@@ -919,6 +919,10 @@ zoom the image like the
 .Cm --bg-fill
 mode.
 .
+.It Cm --pan-mode
+.
+Starts feh in pan mode, hides the pointer and takes the window full-screen.
+.
 .El
 .
 .
