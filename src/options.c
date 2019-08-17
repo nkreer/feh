@@ -825,6 +825,9 @@ static void feh_parse_option_array(int argc, char **argv, int finalrun)
 			break;
 #endif
 		case 249:
+			// Hide Pointer and Full Screen are required for this option to work
+			opt.hide_pointer = 1;
+			opt.full_screen = 1;
 			opt.mode = MODE_PAN;
 			break;
 		default:
