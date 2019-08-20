@@ -3,6 +3,10 @@
 Feh – Image viewer and Cataloguer
 ---
 
+__Attention:__ This is a fork of feh with only one change, namely the addition of a command line argument to start the application in panning mode (--pan-mode) so no mouse buttons need to be pressed manually. This is by no means a well-implemented feature but rather a simple hack to accomplish easy zooming into my i3wm desktop using screenshots: [screenzoom.sh script as a Gist](https://gist.github.com/nkreer/cca0ef25077dfa8cbfbc2f84a59a498d)
+
+Compared to my other tool for this purpose, [i3mag](https://github.com/nkreer/i3mag), this does not change your screen resolution all the time and is therefore a lot faster and compatible to screen recording software, but has the downside of not showing a live image.
+
 feh is a light-weight, configurable and versatile image viewer.
 It is aimed at command line users, but can also be started from graphical file
 managers. Apart from viewing images, it can compile text and thumbnail
